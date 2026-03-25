@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)/sungaila.pdfium.blazorwebassembly/133.0.6872/buildTransitive/net8.0/Sungaila.PDFium.BlazorWebAssembly.props" Condition="Exists('$(NuGetPackageRoot)/sungaila.pdfium.blazorwebassembly/133.0.6872/buildTransitive/net8.0/Sungaila.PDFium.BlazorWebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)/skiasharp.nativeassets.webassembly/3.116.1/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)/skiasharp.nativeassets.webassembly/3.116.1/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)/pdftoimage/5.0.0/buildTransitive/net8.0/PDFtoImage.props" Condition="Exists('$(NuGetPackageRoot)/pdftoimage/5.0.0/buildTransitive/net8.0/PDFtoImage.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.ml.onnxruntime.gpu.linux/1.23.2/buildTransitive/netstandard2.1/Microsoft.ML.OnnxRuntime.Gpu.Linux.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.ml.onnxruntime.gpu.linux/1.23.2/buildTransitive/netstandard2.1/Microsoft.ML.OnnxRuntime.Gpu.Linux.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgIDisposableAnalyzers Condition=" '$(PkgIDisposableAnalyzers)' == '' ">/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/idisposableanalyzers/4.0.8</PkgIDisposableAnalyzers>
+  </PropertyGroup>
+</Project>

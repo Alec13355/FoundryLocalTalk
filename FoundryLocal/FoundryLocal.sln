@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanUG", "JanUG.csproj", "{5A4CE138-BFC8-48F4-9618-1918CE060C23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundryLocal", "FoundryLocal.csproj", "{5A4CE138-BFC8-48F4-9618-1918CE060C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

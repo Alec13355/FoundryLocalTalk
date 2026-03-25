@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanUG2", "JanUG2.csproj", "{77D58CE8-9601-4883-B7BC-0B2C2D682CE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundryLocalExample1", "FoundryLocalExample1.csproj", "{77D58CE8-9601-4883-B7BC-0B2C2D682CE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

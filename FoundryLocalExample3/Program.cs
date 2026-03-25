@@ -8,7 +8,7 @@ using System.Diagnostics;
 // OCR Document with Foundry Local
 var config = new Configuration
 {
-    AppName = "JanUG4-OCR",
+    AppName = "FoundryLocalExample3-OCR",
     LogLevel = Microsoft.AI.Foundry.Local.LogLevel.Information,
     Web = new Configuration.WebService
     {
@@ -58,7 +58,7 @@ var client = new OpenAI.OpenAIClient(new ApiKeyCredential("notneeded"), new Open
 
 var chatClient = client.GetChatClient(model.Id);
 
-string pdfPath = "/Users/aharrison/code/JanDotNetUG/JanUG4/epsonManual.pdf";
+string pdfPath = "/Users/aharrison/code/JanDotNetUG/FoundryLocalExample3/epsonManual.pdf";
 
 Console.WriteLine("Extracting text from PDF with Tesseract OCR...\n");
 

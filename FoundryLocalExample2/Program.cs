@@ -4,7 +4,7 @@ using System.Linq;
 // Transcribing Audio
 var config = new Configuration
 {
-    AppName = "JanUG3",
+    AppName = "FoundryLocalExample2",
     LogLevel = Microsoft.AI.Foundry.Local.LogLevel.Debug
 };
 
@@ -45,7 +45,7 @@ var audioClient = await model.GetAudioClientAsync();
 var ct = CancellationToken.None;
 
 // Get a transcription with streaming outputs
-string filePath = "/Users/aharrison/code/JanDotNetUG/JanUG3/one-sheep-converted.wav";
+string filePath = "/Users/aharrison/code/JanDotNetUG/FoundryLocalExample2/one-sheep-converted.wav";
 
 Console.WriteLine("Starting transcription...");
 var result = await audioClient.TranscribeAudioAsync(filePath, ct);

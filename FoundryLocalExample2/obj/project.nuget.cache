@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "dgSpecHash": "5iJaeOzKn60=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/JanDotNetUG/JanDotNetUG/FoundryLocalExample2/FoundryLocalExample2.csproj",
+  "expectedPackageFiles": [
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/betalgo.ranul.openai/9.1.0/betalgo.ranul.openai.9.1.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/idisposableanalyzers/4.0.8/idisposableanalyzers.4.0.8.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ai.foundry.local/0.8.2.1/microsoft.ai.foundry.local.0.8.2.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ai.foundry.local.core/0.8.2.2/microsoft.ai.foundry.local.core.0.8.2.2.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.ai.abstractions/9.8.0/microsoft.extensions.ai.abstractions.9.8.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.dependencyinjection/9.0.10/microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.10/microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.diagnostics/8.0.1/microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.diagnostics.abstractions/8.0.1/microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.http/8.0.1/microsoft.extensions.http.8.0.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.logging/9.0.10/microsoft.extensions.logging.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.logging.abstractions/9.0.10/microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.options/9.0.10/microsoft.extensions.options.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ml.onnxruntime.foundry/1.23.2.3/microsoft.ml.onnxruntime.foundry.1.23.2.3.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ml.onnxruntime.gpu.linux/1.23.2/microsoft.ml.onnxruntime.gpu.linux.1.23.2.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ml.onnxruntime.managed/1.23.2/microsoft.ml.onnxruntime.managed.1.23.2.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ml.onnxruntimegenai.foundry/0.11.2/microsoft.ml.onnxruntimegenai.foundry.0.11.2.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.ml.onnxruntimegenai.managed/0.11.2/microsoft.ml.onnxruntimegenai.managed.0.11.2.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/openai/2.5.0/openai.2.5.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.clientmodel/1.6.1/system.clientmodel.1.6.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.diagnostics.diagnosticsource/9.0.10/system.diagnostics.diagnosticsource.9.0.10.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.memory.data/8.0.1/system.memory.data.8.0.1.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.numerics.tensors/9.0.0/system.numerics.tensors.9.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.netcore.app.runtime.osx-arm64/8.0.23/microsoft.netcore.app.runtime.osx-arm64.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.aspnetcore.app.runtime.osx-arm64/8.0.23/microsoft.aspnetcore.app.runtime.osx-arm64.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/8.0.23/microsoft.netcore.app.host.linux-x64.8.0.23.nupkg.sha512",
+    "/tmp/codeql-scratch-1cccf325633e82a0/dbs/csharp/working/packages/microsoft.netcore.app.host.osx-arm64/8.0.23/microsoft.netcore.app.host.osx-arm64.8.0.23.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Microsoft.AI.Foundry.Local.Core 0.8.2.2 depends on Microsoft.ML.OnnxRuntime.Foundry (>= 1.23.2) but Microsoft.ML.OnnxRuntime.Foundry 1.23.2 was not found. Microsoft.ML.OnnxRuntime.Foundry 1.23.2.3 was resolved instead.",
+      "projectPath": "/home/runner/work/JanDotNetUG/JanDotNetUG/FoundryLocalExample2/FoundryLocalExample2.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/runner/work/JanDotNetUG/JanDotNetUG/FoundryLocalExample2/FoundryLocalExample2.csproj",
+      "libraryId": "Microsoft.ML.OnnxRuntime.Foundry",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/osx-arm64"
+      ]
+    }
+  ]
+}

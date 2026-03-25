@@ -1,7 +1,7 @@
 using Qdrant.Client;
 using Qdrant.Client.Grpc;
 
-namespace JanUG5;
+namespace FoundryLocalExample4;
 
 public class VectorStoreService
 {
