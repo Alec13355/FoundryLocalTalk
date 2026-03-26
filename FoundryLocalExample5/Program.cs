@@ -247,7 +247,7 @@ static async Task<List<McpToolDefinition>> DiscoverMcpToolsAsync(string mcpServe
 	using var httpClient = new HttpClient();
 	httpClient.Timeout = TimeSpan.FromMinutes(2);
 	httpClient.DefaultRequestHeaders.Add("Accept", "application/json, text/event-stream");
-	httpClient.DefaultRequestHeaders.Add("User-Agent", "JanUG6/1.0");
+	httpClient.DefaultRequestHeaders.Add("User-Agent", "FoundryLocalExample5/1.0");
 
 	var initRequest = new
 	{
@@ -258,7 +258,7 @@ static async Task<List<McpToolDefinition>> DiscoverMcpToolsAsync(string mcpServe
 		{
 			protocolVersion = "2024-11-05",
 			capabilities = new { },
-			clientInfo = new { name = "JanUG6", version = "1.0" }
+			clientInfo = new { name = "FoundryLocalExample5", version = "1.0" }
 		}
 	};
 
@@ -337,7 +337,7 @@ static async Task<string?> CallMcpToolAsync(string mcpServerUrl, string toolName
 	using var httpClient = new HttpClient();
 	httpClient.Timeout = TimeSpan.FromMinutes(2);
 	httpClient.DefaultRequestHeaders.Add("Accept", "application/json, text/event-stream");
-	httpClient.DefaultRequestHeaders.Add("User-Agent", "JanUG6/1.0");
+	httpClient.DefaultRequestHeaders.Add("User-Agent", "FoundryLocalExample5/1.0");
 
 	var initRequest = new
 	{
@@ -348,7 +348,7 @@ static async Task<string?> CallMcpToolAsync(string mcpServerUrl, string toolName
 		{
 			protocolVersion = "2024-11-05",
 			capabilities = new { },
-			clientInfo = new { name = "JanUG6", version = "1.0" }
+			clientInfo = new { name = "FoundryLocalExample5", version = "1.0" }
 		}
 	};
 	try

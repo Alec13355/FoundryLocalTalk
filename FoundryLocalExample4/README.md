@@ -1,4 +1,4 @@
-# JanUG5 - Foundry Local RAG Implementation
+# FoundryLocalExample4 - Foundry Local RAG Implementation
 
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system using Foundry Local with Semantic Kernel, ONNX embeddings, and Qdrant vector database.
 
@@ -39,7 +39,7 @@ This project requires .NET 8 or later.
 ## Project Structure
 
 ```
-JanUG5/
+FoundryLocalExample4/
 ├── Program.cs                      # Main application entry point
 ├── VectorStoreService.cs           # Qdrant vector database wrapper
 ├── DocumentIngestionService.cs     # Document chunking and embedding

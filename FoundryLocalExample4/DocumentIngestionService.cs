@@ -1,7 +1,7 @@
 using Microsoft.SemanticKernel.Embeddings;
 using Microsoft.Extensions.AI;
 
-namespace JanUG5;
+namespace FoundryLocalExample4;
 
 public class DocumentIngestionService
 {

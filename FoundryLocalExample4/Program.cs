@@ -2,7 +2,7 @@
 using Microsoft.SemanticKernel.Embeddings;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.Extensions.AI;
-using JanUG5;
+using FoundryLocalExample4;
 
 // NOTE: Update these paths to point to your local JINA embedding model files
 var embeddModelPath = "./jina/model-w-mean-pooling.onnx";

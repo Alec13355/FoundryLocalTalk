@@ -4,7 +4,7 @@ using System.Linq;
 
 var config = new Configuration
 {
-    AppName = "JanUG",
+    AppName = "FoundryLocal",
     LogLevel = Microsoft.AI.Foundry.Local.LogLevel.Information,
 };
 
